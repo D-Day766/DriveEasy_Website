@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Home Section */
+#home {
+    background-color: #f0f8ff;
+    padding: 50px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 36px;
+    color: #007BFF;
+}
+
+#home p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#home button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background-color: #0056b3;
+}
+
+/* About Us Section */
+#about {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about h2 {
+    font-size: 28px;
+    color: #007BFF;
+}
+
+#about p, #about ul {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Contact Us Section */
+#contact {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #007BFF;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+#contactForm label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Car Gallery */
+.car-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.car {
+    width: 200px;
+    text-align: center;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
